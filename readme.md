@@ -1,6 +1,6 @@
 # dclong/jdk
 
-JDK 8 in Docker. 
+JDK 8 with Maven in Docker. 
 
 ## About the Author
 
