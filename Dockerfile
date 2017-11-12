@@ -5,3 +5,5 @@ RUN apt-get update -y \
         openjdk-8-jdk maven \
     && apt-get autoremove \
     && apt-get autoclean 
+
+COPY scripts /scripts
