@@ -1,6 +1,6 @@
 # [dclong/jdk](https://hub.docker.com/r/dclong/jdk/)
 
-JDK 8 with Maven in Docker. 
+JDK 8 with Maven and Gradle in Docker. 
 
 ## About the Author
 
