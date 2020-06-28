@@ -3,6 +3,7 @@ FROM dclong/ubuntu_b
 RUN apt-get update -y \
     && apt-get install -y \
         openjdk-8-jdk maven gradle \
+    && apt-get purge -y openjdk-11-jre-headless \
     && apt-get autoremove \
     && apt-get autoclean 
 
