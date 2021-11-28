@@ -1,4 +1,6 @@
-FROM dclong/ubuntu_b
+# NAME: dclong/jdk
+FROM dclong/base
+# GIT: https://github.com/dclong/docker-base.git
 
 RUN apt-get update -y \
     && apt-get install -y \
