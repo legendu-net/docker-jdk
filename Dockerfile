@@ -1,6 +1,6 @@
 # NAME: dclong/jdk
 FROM dclong/base
-# GIT: https://github.com/dclong/docker-base.git
+# GIT: https://github.com/legendu-net/docker-base.git
 
 RUN apt-get update -y \
     && apt-get install -y \
